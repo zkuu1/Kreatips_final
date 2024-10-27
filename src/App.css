@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.marquee-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.marquee {
+  display: flex;
+  gap: 20px;
+  animation: marquee 40s linear infinite;
+  width: max-content;
+}
+
+@keyframes marquee {
+  from {
+      transform: translateX(90%); /* Memulai animasi dari luar kanan */
+  }
+  to {
+      transform: translateX(-100%); /* Berakhir animasi di luar kiri */
+  }
+}
+
+.slide-item {
+  flex: 0 0 auto;
+  width: 200px; 
+}
+
+
+
