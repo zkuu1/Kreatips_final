@@ -16,7 +16,7 @@ const About = () => {
 
     return (
         <section id="about" className="py-20 bg-customWhite overflow-hidden">
-            <div className="container mx-auto px-4 sm:px-6">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 className="text-4xl font-bold mb-8 text-customYellow text-center" data-aos="fade-up">
                     Tentang Website
                 </h2>
@@ -27,14 +27,14 @@ const About = () => {
 
                 <div className="flex flex-col md:flex-row items-center mb-12">
                     <div className="mb-6 md:mb-0 md:w-1/2 flex justify-center" data-aos="fade-right">
-                        <img src={aboutpng} alt="About" className="w-full md:w-2/3 lg:w-1/3 h-auto" />
+                        <img src={aboutpng} alt="About" className="w-full md:w-2/3 lg:w-1/2" />
                     </div>
                     <div className="md:w-1/2 text-center md:text-left" data-aos="fade-left">
                         <p className="text-2xl text-gray-700 font-semibold mb-4">
-                           KreaTips adalah singkatan dari Kreativitas dan Tips bagi anak muda di bidang seni visual
+                           KreaTips adalah singkatan dari Kreativitas dan Tips bagi anak muda di bidang seni visual.
                         </p>
                         <p className="text-2xl text-gray-700 font-semibold mb-4">
-                           Website ini berisi tentang hal-hal yang mengandung unsur dari seni visual, semoga website ini bisa bermanfaat ^^
+                           Website ini berisi tentang hal-hal yang mengandung unsur dari seni visual, semoga website ini bisa bermanfaat ^^.
                         </p>
                         <p className="text-xl text-gray-600 mb-10">
                             Admin Zkuu
@@ -42,7 +42,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start mt-64">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start mt-8">
                     <div className="space-y-8 text-center" data-aos="fade-up">
                         <h2 className="text-3xl text-customYellow font-bold">Short Map Website</h2>
                         <div className="flex justify-center mb-4">
@@ -62,7 +62,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="flex justify-center" data-aos="fade-left">
-                        <img src={aboutpng2} className="object-cover h-auto md:h-full rounded-lg w-full" alt="About" />
+                        <img src={aboutpng2} className="object-cover h-auto md:h-full rounded-lg w-full md:w-1/2" alt="About" />
                     </div>
                 </div>
             </div>

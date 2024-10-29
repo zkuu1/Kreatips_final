@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import png1 from '../assets/akane.png';
 import png2 from '../assets/tenki.png';
 import png4 from '../assets/tamao.png';
+import png3 from '../assets/majt.png';
 import AOS from "aos";
 import "aos/dist/aos.css"; 
 import { HiArrowDown } from "react-icons/hi";
@@ -54,7 +55,7 @@ const Gallery = () => {
         <section id="gallery" className="py-20 bg-customWhite overflow-hidden">
             <div className="container mx-auto px-6">
                 <h2 className="text-4xl font-bold mb-8 text-customYellow text-center" data-aos="fade-up">
-                    Gallery
+                    Gallery Saya
                 </h2>
 
                 <div className="flex justify-center mb-4" data-aos="fade-up">
@@ -67,17 +68,25 @@ const Gallery = () => {
                 </div>
 
                 <Slider ref={sliderRef} {...settings} className="gallery-container">
-                    <div className="bg-purple-950 p-4 rounded bg-opacity-30" data-aos="fade-up">
+                    <div className="bg-customGreen rounded bg-opacity-30" data-aos="fade-up">
                         <img src={png2} alt="Tenki No Ko" className="w-full h-auto object-cover mb-4 rounded" />
                         <h3 className="text-2xl font-bold mb-2">Tenki No Ko</h3>
+                        <p className="text-lg  mb-2"> Poster</p>
                     </div>
-                    <div className="bg-purple-950 p-4 rounded bg-opacity-30" data-aos="fade-up">
+                    <div className="bg-customGreen rounded bg-opacity-30" data-aos="fade-up">
                         <img src={png4} alt="Fate Grand: Order" className="w-full h-auto object-cover mb-4 rounded" />
                         <h3 className="text-2xl font-bold mb-2">Fate Grand: Order</h3>
+                        <p className="text-lg  mb-2"> Poster</p>
                     </div>
-                    <div className="bg-purple-950 p-4 rounded bg-opacity-30" data-aos="fade-up">
+                    <div className="bg-customGreen rounded bg-opacity-30" data-aos="fade-up">
                         <img src={png1} alt="Oshi No Ko" className="w-full h-auto object-cover mb-4 rounded" />
                         <h3 className="text-2xl font-bold mb-2">Oshi No Ko</h3>
+                        <p className="text-lg  mb-2"> Poster</p>
+                    </div>
+                    <div className="bg-customGreen rounded bg-opacity-30" data-aos="fade-up">
+                        <img src={png3} alt="Oshi No Ko" className="w-full h-auto object-cover mb-4 rounded" />
+                        <h3 className="text-2xl font-bold mb-2">Masjid Agung Jawa tengah</h3>
+                        <p className="text-lg  mb-2"> Photography</p>
                     </div>
                 </Slider>
             </div>

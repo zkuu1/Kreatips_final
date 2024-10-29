@@ -10,7 +10,7 @@ const Navbar = () => {
                 {/* Nama brand dengan ukuran font yang lebih besar */}
                 <div className="text-4xl font-bold flex items-center">
                     <span className="text-white">krea</span>
-                    <span className="text-customGreen">Tips</span>
+                    <span className="text-customGreen">Tips.</span>
                 </div>
 
                 {/* Hamburger menu untuk perangkat mobile */}
@@ -28,7 +28,7 @@ const Navbar = () => {
                         {/* Dropdown untuk Menu Tips */}
                         <button
                             onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                            className="text-white hover:text-white transition duration-300 focus:outline-none"
+                            className="text-white hover:text-blue-800 transition duration-300 focus:outline-none"
                         >
                             Menu Tips
                         </button>
@@ -53,7 +53,7 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="#gallery" className="text-customFont hover:text-white transition duration-300 font-bold">
+                        <a href="#categori" className="text-customFont hover:text-white transition duration-300 font-bold">
                             Gallery
                         </a>
                     </li>
