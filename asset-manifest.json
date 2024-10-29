@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Kreatips_final/static/css/main.622bfdca.css",
-    "main.js": "/Kreatips_final/static/js/main.067d1560.js",
+    "main.css": "/Kreatips_final/static/css/main.216732d4.css",
+    "main.js": "/Kreatips_final/static/js/main.0ee6c968.js",
     "static/js/453.a4f9ec65.chunk.js": "/Kreatips_final/static/js/453.a4f9ec65.chunk.js",
     "static/media/tamao.png": "/Kreatips_final/static/media/tamao.7b89f77ee8669e92817c.png",
     "static/media/akane.png": "/Kreatips_final/static/media/akane.b86d23a39d985097ead9.png",
     "static/media/tenki.png": "/Kreatips_final/static/media/tenki.ee48ca14449f091dcd48.png",
     "static/media/pt6.jpg": "/Kreatips_final/static/media/pt6.42b6761f44c52102de91.jpg",
+    "static/media/huohuo.png": "/Kreatips_final/static/media/huohuo.9f74598bc4d8318f2d39.png",
+    "static/media/fauzan.png": "/Kreatips_final/static/media/fauzan.1f9c1f3df9a8c6d60503.png",
     "static/media/majt.png": "/Kreatips_final/static/media/majt.ca90aadaf983f0068e34.png",
     "static/media/webpoke.png": "/Kreatips_final/static/media/webpoke.64824a83180bd2b7b901.png",
     "static/media/canva.png": "/Kreatips_final/static/media/canva.9314e66982e8bd7b19d0.png",
-    "static/media/chara.png": "/Kreatips_final/static/media/chara.34c9a349aa32f6bdd329.png",
     "static/media/2d5.jpg": "/Kreatips_final/static/media/2d5.122e7c0b61d6d3c58786.jpg",
     "static/media/poster3.webp": "/Kreatips_final/static/media/poster3.8c3505c8f7b9695532f4.webp",
     "static/media/2d.webp": "/Kreatips_final/static/media/2d.d41d8cab6eb204f4ed4d.webp",
@@ -25,7 +26,6 @@
     "static/media/3d1.jpg": "/Kreatips_final/static/media/3d1.54f864130e9c7dd1b429.jpg",
     "static/media/2d4.webp": "/Kreatips_final/static/media/2d4.5b0ee6297ea2ca495a1d.webp",
     "static/media/poster2.webp": "/Kreatips_final/static/media/poster2.524d6e0a46d9f15ebef8.webp",
-    "static/media/chara2.png": "/Kreatips_final/static/media/chara2.4b8b95b33f0b64ec9947.png",
     "static/media/pt3.jpg": "/Kreatips_final/static/media/pt3.52ee1850f9d6d052bef1.jpg",
     "static/media/3d2.webp": "/Kreatips_final/static/media/3d2.46fc11f1ce54ee198aae.webp",
     "static/media/pixellab.png": "/Kreatips_final/static/media/pixellab.228232c5d37aa693d576.png",
@@ -54,12 +54,12 @@
     "static/media/slick.ttf": "/Kreatips_final/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Kreatips_final/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Kreatips_final/index.html",
-    "main.622bfdca.css.map": "/Kreatips_final/static/css/main.622bfdca.css.map",
-    "main.067d1560.js.map": "/Kreatips_final/static/js/main.067d1560.js.map",
+    "main.216732d4.css.map": "/Kreatips_final/static/css/main.216732d4.css.map",
+    "main.0ee6c968.js.map": "/Kreatips_final/static/js/main.0ee6c968.js.map",
     "453.a4f9ec65.chunk.js.map": "/Kreatips_final/static/js/453.a4f9ec65.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.622bfdca.css",
-    "static/js/main.067d1560.js"
+    "static/css/main.216732d4.css",
+    "static/js/main.0ee6c968.js"
   ]
 }
