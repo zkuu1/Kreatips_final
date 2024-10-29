@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Kreatips_final/static/css/main.216732d4.css",
-    "main.js": "/Kreatips_final/static/js/main.0ee6c968.js",
+    "main.css": "/Kreatips_final/static/css/main.ceff4e4f.css",
+    "main.js": "/Kreatips_final/static/js/main.22f1e025.js",
     "static/js/453.a4f9ec65.chunk.js": "/Kreatips_final/static/js/453.a4f9ec65.chunk.js",
     "static/media/tamao.png": "/Kreatips_final/static/media/tamao.7b89f77ee8669e92817c.png",
     "static/media/akane.png": "/Kreatips_final/static/media/akane.b86d23a39d985097ead9.png",
@@ -34,9 +34,11 @@
     "static/media/pt4.webp": "/Kreatips_final/static/media/pt4.7cff8c5c5f48c222710c.webp",
     "static/media/3d.jpg": "/Kreatips_final/static/media/3d.352f139c18b5694d8b5f.jpg",
     "static/media/am.png": "/Kreatips_final/static/media/am.77b502753ce13d306044.png",
+    "static/media/pt7.webp": "/Kreatips_final/static/media/pt7.22344df62169c369b713.webp",
     "static/media/bidang.jpg": "/Kreatips_final/static/media/bidang.58ac83a19d2665c76211.jpg",
     "static/media/pt2.webp": "/Kreatips_final/static/media/pt2.000c095f34e11fa843f4.webp",
     "static/media/pt1.webp": "/Kreatips_final/static/media/pt1.40e34a04862500676792.webp",
+    "static/media/ibis.jpg": "/Kreatips_final/static/media/ibis.20134ecdc468de267b2e.jpg",
     "static/media/ai.png": "/Kreatips_final/static/media/ai.ac6d5abca1a835c7625b.png",
     "static/media/color.jpg": "/Kreatips_final/static/media/color.f2909a3344e04fd22046.jpg",
     "static/media/colorp3.png": "/Kreatips_final/static/media/colorp3.1b4ef2a2e7be515c5fb8.png",
@@ -54,12 +56,12 @@
     "static/media/slick.ttf": "/Kreatips_final/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Kreatips_final/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Kreatips_final/index.html",
-    "main.216732d4.css.map": "/Kreatips_final/static/css/main.216732d4.css.map",
-    "main.0ee6c968.js.map": "/Kreatips_final/static/js/main.0ee6c968.js.map",
+    "main.ceff4e4f.css.map": "/Kreatips_final/static/css/main.ceff4e4f.css.map",
+    "main.22f1e025.js.map": "/Kreatips_final/static/js/main.22f1e025.js.map",
     "453.a4f9ec65.chunk.js.map": "/Kreatips_final/static/js/453.a4f9ec65.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.216732d4.css",
-    "static/js/main.0ee6c968.js"
+    "static/css/main.ceff4e4f.css",
+    "static/js/main.22f1e025.js"
   ]
 }
