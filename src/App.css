@@ -45,21 +45,45 @@
   width: 100%;
 }
 
+/* Default animation for larger screens (PC) */
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 .marquee {
   display: flex;
   gap: 20px;
-  animation: marquee 20s linear infinite;
+  animation: marquee 15s linear infinite;
   width: max-content;
 }
 
-@keyframes marquee {
-  from {
-      transform: translateX(90%); /* Memulai animasi dari luar kanan */
+/* Animation for smaller screens (Mobile) */
+@media (max-width: 768px) {
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    2% {
+      transform: translateX(18%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
   }
-  to {
-      transform: translateX(-100%); /* Berakhir animasi di luar kiri */
+
+  .marquee {
+    animation: marquee 15s linear infinite; 
   }
 }
+
+
+
 
 .slide-item {
   flex: 0 0 auto;

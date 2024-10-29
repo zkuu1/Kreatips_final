@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import png2d from '../assets/Categori/2d.webp';
 import png2d1 from '../assets/Categori/2d2.webp';
 import png2d2 from '../assets/Categori/2d3.jpg';
@@ -20,6 +20,9 @@ import png3pt from '../assets/Categori/pt3.jpg';
 import png4pt from '../assets/Categori/pt4.webp';
 import png5pt from '../assets/Categori/pt5.jpg';
 import png6pt from '../assets/Categori/pt6.jpg';
+import png7pt from '../assets/Categori/pt7.webp';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const images = [
   { src: png2d , category: '2D' },
@@ -28,24 +31,33 @@ const images = [
   { src: png2d3, category: '2D' },
   { src: png2d4, category: '2D' },
   { src: png3d, category: '3D' },
-  { src:  png3d1, category: '3D' },
-  { src:  png3d2, category: '3D' },
-  { src:  png3d2, category: '3D' },
+  { src: png3d1, category: '3D' },
+  { src: png3d2, category: '3D' },
+  { src: png3d2, category: '3D' },
   { src: png1p, category: 'Poster' },
-  { src:  png2p, category: 'Poster' },
-  { src:  png3p, category: 'Poster' },
-  { src:  png4p, category: 'Poster' },
-  { src:  png1pt, category: 'Photography' },
-  { src:  png2pt, category: 'Photography' },
-  { src:  png3pt, category: 'Photography' },
-  { src:  png4pt, category: 'Photography' },
-  { src:  png5pt, category: 'Photography' },
-  { src:  png6pt, category: 'Photography' },
+  { src: png2p, category: 'Poster' },
+  { src: png3p, category: 'Poster' },
+  { src: png4p, category: 'Poster' },
+  { src: png1pt, category: 'Photography' },
+  { src: png2pt, category: 'Photography' },
+  { src: png3pt, category: 'Photography' },
+  { src: png4pt, category: 'Photography' },
+  { src: png5pt, category: 'Photography' },
+  { src: png6pt, category: 'Photography' },
+  { src: png7pt, category: 'Photography' },
 ];
 
 const categories = ['All', '2D', '3D', 'Poster', 'Photography'];
 
 const Categori = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+    });
+  }, []);
+
   const [selectedCategory, setSelectedCategory] = useState('All');
 
   const filteredImages = selectedCategory === 'All' 
@@ -54,33 +66,42 @@ const Categori = () => {
 
   return (
     <section id="categori">
- <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4 text-customGreen">Gallery Seni</h1>
+      <div className="container mx-auto p-4">
+        <h1 className="text-2xl font-bold mb-4 text-customGreen" data-aos="fade-down">Gallery Seni</h1>
 
-      <div className="flex flex-wrap mb-4">
-        {categories.map(category => (
-          <button
-            key={category}
-            onClick={() => setSelectedCategory(category)}
-            className={`mx-2 mb-2 px-4 py-2 rounded transition duration-200 
-              ${selectedCategory === category ? 'bg-customGreen text-white' : 'bg-gray-200 text-gray-800 hover:bg-gray-300'}`}
-          >
-            {category}
-          </button>
-        ))}
+        <div className="flex flex-wrap mb-4">
+          {categories.map((category, index) => (
+            <button
+              key={category}
+              onClick={() => setSelectedCategory(category)}
+              className={`mx-2 mb-2 px-4 py-2 rounded transition duration-200 
+                ${selectedCategory === category ? 'bg-customGreen text-white' : 'bg-gray-200 text-gray-800 hover:bg-gray-300'}`}
+              data-aos="fade-up" data-aos-delay={index * 100}
+            >
+              {category}
+            </button>
+          ))}
+        </div>
+
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {filteredImages.map((image, index) => (
+            <div
+              key={index}
+              className="overflow-hidden rounded-lg shadow-lg"
+              data-aos="zoom-in"
+              data-aos-delay={index * 100}
+            >
+              <img
+                src={image.src}
+                alt={`Gallery ${index}`}
+                className="w-full h-48 sm:h-56 md:h-64 object-cover transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+          ))}
+        </div>
       </div>
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {filteredImages.map((image, index) => (
-          <div key={index} className="overflow-hidden rounded-lg shadow-lg">
-            <img src={image.src} alt={`Gallery ${index}`} className="w-full h-48 sm:h-56 md:h-64 object-cover transition-transform duration-300 hover:scale-105" />
-          </div>
-        ))}
-      </div>
-    </div>
- 
     </section>
-     );
-   
+  );
 };
 
 export default Categori;

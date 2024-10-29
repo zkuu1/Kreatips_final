@@ -71,7 +71,7 @@ const Navbar = () => {
             >
                 <button
                     onClick={() => setIsOpen(false)}
-                    className="p-4 text-gray-300 focus:outline-none hover:text-white"
+                    className="p-4 text-customGreen focus:outline-none hover:text-white"
                 >
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
@@ -101,22 +101,25 @@ const Navbar = () => {
                         )}
                     </li>
                     <li className="text-left">
-                        <a href="#about" className="block text-white hover:text-white transition duration-300">
+                        <a href="#about" className="block text-customGreen hover:text-white transition duration-300">
                             About
                         </a>
                     </li>
                     <li className="text-left">
-                        <a href="#gallery" className="block text-white hover:text-white transition duration-300">
+                        <a href="#gallery" className="block text-customGreen hover:text-white transition duration-300">
                             Gallery
                         </a>
                     </li>
                     <li className="text-left">
-                        <a href="#contact" className="block text-white hover:text-white transition duration-300">
+                        <a href="#contact" className="block text-customGreen hover:text-white transition duration-300">
                             Contact
                         </a>
                     </li>
+                 
                 </ul>
+               
             </div>
+            
         </nav>
     );
 };
