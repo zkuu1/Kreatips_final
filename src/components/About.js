@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; 
-import aboutpng from '../assets/About/chara.png';
-import aboutpng2 from '../assets/About/chara2.png';
+import aboutpng from '../assets/About/huohuo.png';
+import aboutpng2 from '../assets/About/fauzan.png';
 import { HiArrowDown } from "react-icons/hi";
 
 const About = () => {

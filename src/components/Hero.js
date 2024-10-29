@@ -13,7 +13,7 @@ const Hero = () => {
                     <span className="text-green-300">Tips.</span>
                 </span>
                 <p className="text-2xl mb-8">Scroll Untuk Lanjut</p>
-                <a href="#projects" className="bg-customGreen hover:bg-customLightGreen text-white font-bold py-2 px-6 rounded-lg shadow-lg transition duration-300">
+                <a href="#about" className="bg-customGreen hover:bg-customLightGreen text-white font-bold py-2 px-6 rounded-lg shadow-lg transition duration-300">
                     Scroll Down..
                 </a>
             </div>

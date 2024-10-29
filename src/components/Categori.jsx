@@ -55,14 +55,15 @@ const Categori = () => {
   return (
     <section id="categori">
  <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">Gallery Seni</h1>
+      <h1 className="text-2xl font-bold mb-4 text-customGreen">Gallery Seni</h1>
+
       <div className="flex flex-wrap mb-4">
         {categories.map(category => (
           <button
             key={category}
             onClick={() => setSelectedCategory(category)}
             className={`mx-2 mb-2 px-4 py-2 rounded transition duration-200 
-              ${selectedCategory === category ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800 hover:bg-gray-300'}`}
+              ${selectedCategory === category ? 'bg-customGreen text-white' : 'bg-gray-200 text-gray-800 hover:bg-gray-300'}`}
           >
             {category}
           </button>
