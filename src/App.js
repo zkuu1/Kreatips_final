@@ -10,6 +10,7 @@ import Gallery from './components/Gallery';
 import Fundamental from './components/Fundamental';
 import ColorPalette from './components/Color_pallete';
 import Preparation from './components/Preparation';
+import Categori from './components/Categori';
 
 // LIBRARY
 import 'slick-carousel/slick/slick.css'; 
@@ -25,7 +26,8 @@ function App() {
      <Fundamental></Fundamental>
      <ColorPalette></ColorPalette>
      <Preparation></Preparation>
-      <Gallery></Gallery>
+     <Categori></Categori>
+       <Gallery></Gallery>
       <Contact></Contact>
       <Footer></Footer>
     </div>
