@@ -7,13 +7,13 @@ const Navbar = () => {
     return (
         <nav className="bg-customLightGreen p-4 fixed top-0 left-0 w-full z-50">
             <div className="container mx-auto flex justify-between items-center">
-                {/* Nama brand dengan ukuran font yang lebih besar */}
+              
                 <div className="text-4xl font-bold flex items-center">
                     <span className="text-white">krea</span>
                     <span className="text-customGreen">Tips.</span>
                 </div>
 
-                {/* Hamburger menu untuk perangkat mobile */}
+                {/* HAMBURGER MENU UNTUK MOBILE */}
                 <div className="lg:hidden">
                     <button onClick={() => setIsOpen(!isOpen)} className="text-white focus:outline-none">
                         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -22,10 +22,10 @@ const Navbar = () => {
                     </button>
                 </div>
 
-                {/* Menu navigasi untuk desktop */}
+                {/* MENU DI DESKTOP */}
                 <ul className="hidden lg:flex space-x-6 text-lg">
                     <li className="relative">
-                        {/* Dropdown untuk Menu Tips */}
+                        {/* FITUR DROPDOWN*/}
                         <button
                             onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                             className="text-white hover:text-blue-800 transition duration-300 focus:outline-none"
@@ -65,7 +65,7 @@ const Navbar = () => {
                 </ul>
             </div>
 
-            {/* Slide-out menu untuk mobile */}
+            {/* MENU DI MOBILE */}
             <div
                 className={`fixed top-0 right-0 h-full ${isOpen ? "w-64" : "w-0"} bg-customLightGreen text-white overflow-hidden transform transition-all duration-300 ease-in-out lg:hidden z`}
             >

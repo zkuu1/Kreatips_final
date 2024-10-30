@@ -12,7 +12,7 @@ import ColorPalette from './components/Color_pallete';
 import Preparation from './components/Preparation';
 import Categori from './components/Categori';
 
-// LIBRARY
+// LIBRARY 
 import 'slick-carousel/slick/slick.css'; 
 import 'slick-carousel/slick/slick-theme.css';
 
