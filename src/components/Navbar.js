@@ -30,18 +30,18 @@ const Navbar = () => {
                             onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                             className="text-white hover:text-blue-800 transition duration-300 focus:outline-none"
                         >
-                            Menu Tips
+                            Home
                         </button>
                         {isDropdownOpen && (
                             <ul className="absolute mt-2 w-40 bg-customGreen rounded-lg shadow-lg py-2">
                                 <li>
                                     <a href="#fundamental" className="block px-4 py-2 text-white hover:bg-customLightGreen hover:text-white transition duration-300">
-                                        Fundamental
+                                        Programming
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#preparation" className="block px-4 py-2 text-white hover:bg-customLightGreen hover:text-white transition duration-300">
-                                        Preparation
+                                        Designer
                                     </a>
                                 </li>
                             </ul>
@@ -54,12 +54,12 @@ const Navbar = () => {
                     </li>
                     <li>
                         <a href="#categori" className="text-customFont hover:text-white transition duration-300 font-bold">
-                            Gallery
+                             My Gallery
                         </a>
                     </li>
                     <li>
                         <a href="#contact" className="text-customFont hover:text-white transition duration-300 font-bold">
-                            Contact
+                            Contact Me
                         </a>
                     </li>
                 </ul>
@@ -83,18 +83,18 @@ const Navbar = () => {
                             onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                             className="block text-white hover:text-white transition duration-300 focus:outline-none"
                         >
-                            Menu Tips
+                            Home
                         </button>
                         {isDropdownOpen && (
                             <ul className="mt-2 bg-customGreen rounded-lg py-2 space-y-1">
                                 <li className="text-left">
                                     <a href="#fundamental" className="block px-4 py-2 text-white hover:bg-customLightGreen hover:text-white transition duration-300">
-                                        Fundamental
+                                        Programming
                                     </a>
                                 </li>
                                 <li className="text-left">
                                     <a href="#preparation" className="block px-4 py-2 text-white hover:bg-customLightGreen hover:text-white transition duration-300">
-                                        Preparation
+                                        Designer
                                     </a>
                                 </li>
                             </ul>
@@ -107,12 +107,12 @@ const Navbar = () => {
                     </li>
                     <li className="text-left">
                         <a href="#gallery" className="block text-customGreen hover:text-white transition duration-300">
-                            Gallery
+                            My Gallery
                         </a>
                     </li>
                     <li className="text-left">
                         <a href="#contact" className="block text-customGreen hover:text-white transition duration-300">
-                            Contact
+                            Contact Me
                         </a>
                     </li>
                  

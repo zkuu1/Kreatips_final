@@ -18,7 +18,7 @@ const About = () => {
         <section id="about" className="py-20 bg-customWhite overflow-hidden">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 className="text-4xl font-bold mb-8 text-customYellow text-center" data-aos="fade-up">
-                    Tentang Website
+                    Tentang Saya
                 </h2>
 
                 <div className="flex justify-center mb-8" data-aos="fade-up">
@@ -31,13 +31,10 @@ const About = () => {
                     </div>
                     <div className="md:w-1/2 text-center md:text-left" data-aos="fade-left">
                         <p className="text-2xl text-gray-700 font-semibold mb-4">
-                           KreaTips adalah singkatan dari Kreativitas dan Tips bagi anak muda di bidang seni visual.
-                        </p>
-                        <p className="text-2xl text-gray-700 font-semibold mb-4">
-                           Website ini berisi tentang hal-hal yang mengandung unsur dari seni visual, semoga website ini bisa bermanfaat ^^.
+                           Haloo Nama Saya Zakaria Akmal Pasha AKA Zkuu
                         </p>
                         <p className="text-xl text-gray-600 mb-10">
-                            Admin Zkuu
+                             !Zkuu
                         </p>
                     </div>
                 </div>
