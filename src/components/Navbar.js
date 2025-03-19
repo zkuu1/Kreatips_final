@@ -9,8 +9,8 @@ const Navbar = () => {
             <div className="container mx-auto flex justify-between items-center">
               
                 <div className="text-4xl font-bold flex items-center">
-                    <span className="text-white">krea</span>
-                    <span className="text-customGreen">Tips.</span>
+                    <span className="text-white">Zk</span>
+                    <span className="text-customGreen">uu.</span>
                 </div>
 
                 {/* HAMBURGER MENU UNTUK MOBILE */}

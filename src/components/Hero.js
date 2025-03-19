@@ -9,7 +9,7 @@ const Hero = () => {
         >
             <div className="bg-black bg-opacity-60 h-full flex flex-col justify-center items-center text-center p-6">
                 <span className="text-5xl font-bold mb-4">
-                    Welcome To<span className="text-white">My </span>
+                    Welcome To <span className="text-white">My </span>
                     <span className="text-green-300">Portofolio</span>
                 </span>
                 <p className="text-2xl mb-8">Scroll Untuk Lanjut</p>
